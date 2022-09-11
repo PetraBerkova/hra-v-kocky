@@ -1,0 +1,115 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+
+/* All page*/
+.allPage {
+    background:linear-gradient( rgb(241, 132, 54), rgb(100, 44, 4));
+    height: 100vh;
+}
+
+/* Playground*/
+.playground {
+    width: 70%;
+    height: 70%;
+    background-color: bisque;
+    position: absolute;
+    top:15%;
+    left:15%;
+    box-shadow: 10px 10px 10px rgb(80, 52, 32);
+}
+
+/* total score*/
+.totalScore {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.totalScore p:nth-child(2){
+    font-size: 30px;
+    text-align: center;
+}
+
+.totalScore0 {
+   position: absolute;
+   top:15%;
+   left: 10%;
+}
+
+.totalScore1 {
+    position: absolute;
+    top:15%;
+    left: 70%;
+ }
+
+ /* current score*/
+ .currentScore {
+     width: 20%;
+     height: 25%;
+     background-color: rgb(192, 81, 41);
+     border: 5px outset rgb(172, 59, 18);
+ }
+.currentScore p {
+    font-size: 1.3em;
+    color: cornsilk;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.currentScore p:nth-of-type(2){
+    font-size: 1.8em;
+}
+.currentScore0{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+}
+
+.currentScore1{
+    position: absolute;
+    top: 60%;
+    left: 68%;
+}
+
+/* Middle text*/
+.middleText{
+    position: absolute;
+    top: 70%;
+    left:42%;
+    text-align: center;
+    font-size: 1.3em;
+    color: cornsilk;
+}
+.btn {
+    border: 2px solid rgb(112, 49, 26);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(161, 67, 33);
+}
+.btn:hover{
+    background-color:rgb(112, 49, 26);
+    border: 2px solid rgb(112, 49, 26);
+}
+
+/*Dice*/
+.dice{
+    position: absolute;
+    top:30%;
+    left: 43%;
+}
+
+.diceImage {
+    box-shadow: 5px 5px 5px rgb(109, 108, 108);
+
+}
+/* activ*/
+.active {
+    color: cornsilk;
+    background-color: rgb(192, 81, 41);
+    border: 2px outset rgb(172, 59, 18);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
